@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cermin</string>
+    <string name="light">kecerahan</string>
+    
+    <string name="recovery">pemulihan</string>
+    <string name="top_title">Klik \'+ \', \'- \' tombol untuk mengatur kecerahan layar kaca di atas bohlam menampilkan kecerahan layar saat</string>
+    <string name="bottom_title">Klik \'+ \', \'- \' tombol Anda dapat mengontrol cermin zoom, klik tombol tengah untuk menyimpan di bagian bawah wajah Anda</string>
+    <string name="center_title">Klik layar untuk membekukan gambar saat ini, klik lagi untuk mengembalikan</string>
+    <string name="save_seccess">Foto berhasil disimpan</string>
+    <string name="save_fail">Kartu memori tidak ada</string>
+    <string name="save_fail2">Gagal menyimpan</string>
+    <string name="notphoto">Silakan mengembalikan mode preview</string>
+    <string name="not_have_front_camera">Kamera depan tidak terdeteksi</string>
+    <string name="ready">Mempersiapkan</string>
+    <string name="open_err_title">Membuka kegagalan kamera</string>
+    <string name="open_err_message">Periksa apakah Anda telah mengaktifkan kamera atau Flash</string>
+
+</resources>

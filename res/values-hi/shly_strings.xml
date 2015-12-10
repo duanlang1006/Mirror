@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">आईना </string>
+    <string name="light">चमक </string>
+    
+    <string name="recovery">वसूली</string>
+    <string name="top_title">- \' बल्ब से ऊपर स्क्रीन चमक दर्पण को समायोजित करने के लिए बटन वर्तमान स्क्रीन चमक को प्रदर्शित करता है \'+ \' \ क्लिक करें</string>
+    <string name="bottom_title">क्लिक करें \'+ \' \'- \' आप दर्पण ज़ूम नियंत्रित कर सकते हैं बटन, अपने चेहरे के तल पर बचाने के लिए मध्य बटन पर क्लिक करें</string>
+    <string name="center_title">मौजूदा तस्वीर फ्रीज करने के लिए स्क्रीन पर क्लिक करें, फिर से बहाल करने के लिए क्लिक करें</string>
+    <string name="save_seccess">फोटो सफलतापूर्वक बचाया</string>
+    <string name="save_fail">मेमोरी कार्ड मौजूद नहीं है</string>
+    <string name="save_fail2">सहेजने में विफल</string>
+    <string name="notphoto">पूर्वावलोकन मोड बहाल करें</string>
+    <string name="not_have_front_camera">फ्रंट कैमरा नहीं पाया जाता है</string>
+    <string name="ready">की तैयारी</string>
+    <string name="open_err_title">कैमरा विफलता खोलें</string>
+    <string name="open_err_message">आप कैमरा या फ्लैश पर खड़ा हो गया है, तो कृपया जांच करें</string>
+
+</resources>

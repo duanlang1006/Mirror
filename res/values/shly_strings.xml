@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mirror</string>
+    <string name="light">Light</string>
+    <string name="recovery">Recovery</string>
+    <string name="top_title">Click \'+\', \'-\' button can adjust the brightness of the screen above the mirror, lamp shows the brightness of the current screen</string>
+    <string name="bottom_title">Click \'+\', \'-\' button can control the mirror to zoom in and click the middle button, you can save your beautiful face</string>
+    <string name="center_title">Click the screen to freeze the current picture, click resume again</string>
+    <string name="save_seccess">Save the photo successfully</string>
+    <string name="save_fail">Not SDCard</string>
+    <string name="save_fail2">Save failure</string>
+    <string name="notphoto">Recovery the preview mode first</string>
+    <string name="not_have_front_camera">No front camera</string>
+    <string name="ready">Preparing</string>
+    <string name="open_err_title">Open the camera failure</string>
+    <string name="open_err_message">Please check if you have turned on the camera or Flash</string>
+</resources>

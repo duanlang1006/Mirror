@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">鏡子</string>
+    <string name="light">亮度</string>
+    <string name="recovery">恢復</string>
+    <string name="top_title">點擊 \'+\',\'-\'按鈕可以調節鏡子屏幕亮度,燈泡上方顯示的是當前屏幕的亮度</string>
+    <string name="bottom_title">點擊 \'+\',\'-\'按鈕可以控制鏡子的放大和縮小,點擊下方中間的按鈕可以保存您的美貌面容</string>
+    <string name="center_title">單擊屏幕可以定格當前畫面,再次單擊可以恢復</string>
+    <string name="save_seccess">相片保存成功</string>
+    <string name="save_fail">內存卡不存在</string>
+    <string name="save_fail2">保存失敗</string>
+    <string name="notphoto">Preview the preview mode first.請先恢復預覽模式</string>
+    <string name="not_have_front_camera">未檢測到前置攝像頭</string>
+    <string name="ready">正在準備</string>
+    <string name="open_err_title">打開相機失敗</string>
+    <string name="open_err_message">請檢查是否已經打開了攝像頭或閃光燈</string>
+</resources>

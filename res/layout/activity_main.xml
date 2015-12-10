@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lang.mirror.MainActivity">
+
+    <com.lang.mirror.PreviewView
+        android:id="@+id/PreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/light_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/preview_toolsbar_text_margin_top"
+        android:gravity="center_horizontal"
+        android:text="0%"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/preview_toolsbar_margin_top">
+
+        <ImageView
+            android:id="@+id/light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/light" />
+
+        <ImageView
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/preview_toolsbar_margin_left_or_right"
+            android:layout_toLeftOf="@id/light"
+            android:background="@drawable/button_sub_selector" />
+
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/preview_toolsbar_margin_left_or_right"
+            android:layout_toRightOf="@id/light"
+            android:background="@drawable/button_add_selector" />
+
+        <ImageView
+            android:id="@+id/btn_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/preview_toolsbar_margin_left_or_right"
+            android:layout_toRightOf="@id/btn_add"
+            android:background="@drawable/button_frame_selector" />
+
+        <ImageView
+            android:id="@+id/btn_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/preview_toolsbar_margin_left_or_right"
+            android:layout_toLeftOf="@id/btn_sub"
+            android:background="@drawable/button_help_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/HelpView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/preview_helpview_margin_left"
+        android:layout_marginRight="@dimen/preview_helpview_margin_left"
+        android:layout_marginTop="@dimen/preview_helpview_margin_top"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_top"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/preview_textview_minheight"
+            android:padding="@dimen/preview_helpview_padding"
+            android:text="@string/top_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/preview_helpview_top_title_textsize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/preview_helpview_margin_bottom"
+            android:background="@drawable/bg_bottom"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/preview_textview_minheight"
+            android:padding="@dimen/preview_helpview_padding"
+            android:text="@string/bottom_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/preview_helpview_top_title_textsize" />
+    </RelativeLayout>
+
+    <com.lang.mirror.ValueSelectView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/preview_valueselectview_margin_bottom" />
+
+    <ImageView
+        android:id="@+id/view_btn_takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/preview_valueselectview_margin_bottom"
+        android:background="@drawable/button_takephoto_selector" />
+
+</FrameLayout>
